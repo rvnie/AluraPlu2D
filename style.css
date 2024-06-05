@@ -1,7 +1,7 @@
 :root {
     --branco-principal: #ffffff;
     --cinza-secundario: #ffffff;
-    --botao-azul: #000000;
+    --botao-azul: #0013a1;
     --cor-de-fundo: #000000;
 }
 
@@ -26,6 +26,7 @@ body {
 .container {
     height: 100vh;
     display: grid;
+    grid-template-columns: 40% 400%;
 
 }
 
