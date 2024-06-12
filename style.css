@@ -3,6 +3,7 @@
     --cinza-secundario: #ffffff;
     --botao-azul: #0013a1;
     --cor-de-fundo: #000000;
+    --fonte-principal: 'Lora';
 }
 
 * {
@@ -14,6 +15,8 @@
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
 }
 
 .principal {
@@ -41,4 +44,10 @@ body {
 .botao-secundario {
     background-color: transparent;
     border: 2px solid var(--branco-principal)
+}
+
+.container-aviso{
+font-size: 12px;
+color:var(--cinza-secundario);
+
 }
