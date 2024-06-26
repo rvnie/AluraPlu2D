@@ -2,7 +2,7 @@
     --branco-principal: #ffffff;
     --cinza-secundario: #ffffff;
     --botao-azul: #0013a1;
-    --cor-de-fundo: #000000;
+    --cor-de-fundo: #01020bfd;
     --fonte-principal: 'Lora';
 }
 
@@ -16,6 +16,7 @@ body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -23,13 +24,15 @@ body {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 
 }
 
 .container {
     height: 100vh;
     display: grid;
-    grid-template-columns: 40%;
+    grid-template-columns: 40% 60%;
 
 }
 
@@ -39,15 +42,53 @@ body {
     padding: 1em;
     color: var(--branco-principal);
     display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .botao-secundario {
     background-color: transparent;
-    border: 2px solid var(--branco-principal)
+    border: 2px solid var(--branco-principal);
 }
 
-.container-aviso{
-font-size: 12px;
-color:var(--cinza-secundario);
+.container-aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
 
+}
+
+.container-titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container-titulo {
+    margin: 1em 0 2em 0;
+}
+
+.container-caixa {
+    margin: 0 6em;
+}
+
+.imagem-secundaria {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao-titulo {
+    font-weight: 700;
+    font-size: 48px;
+   color: var(--branco-principal);
+   margin-bottom: 0.1em;
+}
+
+.descricao-texto {
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--cinza-secundario);
+    margin-bottom: 0.1em;
 }
