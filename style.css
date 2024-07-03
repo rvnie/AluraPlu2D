@@ -82,13 +82,23 @@ body {
 .descricao-titulo {
     font-weight: 700;
     font-size: 48px;
-   color: var(--branco-principal);
-   margin-bottom: 0.1em;
+    color: var(--branco-principal);
+
 }
 
 .descricao-texto {
     font-size: 28px;
     font-weight: 400;
     color: var(--cinza-secundario);
-    margin-bottom: 0.1em;
+
+}
+
+.secundario-botao {
+    display: inline-block;
+    margin-top: 1em;
+
+}
+
+.container-descricao {
+    padding: 2em;
 }
